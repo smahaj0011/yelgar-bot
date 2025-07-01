@@ -1,0 +1,9 @@
+---
+services:
+  yelgar-bot:
+    container_name: yelgar-bot
+    build: .
+    environment:
+      - TOKEN=<your application secret>
+      - CLIENT_ID=<your application id>
+      - GUILD_ID=<your guild id>
